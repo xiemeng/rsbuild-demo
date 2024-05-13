@@ -1,0 +1,617 @@
+@import '~ant-design-vue/es/style/themes/default.less';
+
+html,
+body,
+#app,
+#root {
+  height: 100%;
+}
+.noDownIcon .ant-select-arrow {
+  display: none;
+}
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout.layout-basic {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// 数据列表 样式
+.table-alert {
+  margin-bottom: 16px;
+}
+// 数据列表 操作
+.table-operator {
+  margin-bottom: 18px;
+
+  button {
+    margin-right: 8px;
+  }
+}
+// 数据列表 搜索条件
+.table-page-search-wrapper {
+  .ant-form-inline {
+    .ant-form-item {
+      display: flex;
+      margin-bottom: 24px;
+      margin-right: 0;
+
+      .ant-form-item-control-wrapper {
+        flex: 1 1;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      > .ant-form-item-label {
+        line-height: 32px;
+        padding-right: 8px;
+        width: auto;
+      }
+      .ant-form-item-control {
+        height: 32px;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .table-page-search-submitButtons {
+    display: block;
+    margin-bottom: 24px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+.font-color-black-25 {
+  color: #bababa;
+}
+.aks-tips {
+  color: rgba(0, 0, 0, 0.45);
+}
+.primaryColor {
+  color: #1890ff;
+}
+.background-white {
+  background-color: #fff;
+}
+.flex-box {
+  display: flex;
+}
+.flex1 {
+  flex: 1;
+}
+.flex-col-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex_start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex_wrap {
+  flex-wrap: wrap;
+}
+// 刷新，手型标签
+.refresh {
+  cursor: pointer;
+}
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.dialog-title {
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.a-line-omit {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* 整个滚动条 */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* 滚动条有滑块的轨道部分 */
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* 滚动条滑块(竖向:vertical 横向:horizontal) */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+/* 同时有垂直和水平滚动条时交汇的部分 */
+::-webkit-scrollbar-corner {
+  display: block; /* 修复交汇时出现的白块 */
+}
+.noBottomBorder {
+  .ant-modal-footer {
+    border-top: none;
+  }
+}
+/*鼠标小手指*/
+.clickable {
+  cursor: pointer;
+}
+/*表格显示最大高度*/
+.mheight {
+  max-height: 52px;
+  overflow: hidden;
+}
+/*按钮统一样式*/
+.aks-border-but {
+  color: #1890ff;
+  background-color: transparent;
+  border-color: #1890ff;
+  text-shadow: none;
+}
+.upload-input {
+  .ant-upload {
+    width: 139px;
+    height: 42px;
+    display: block;
+  }
+}
+.r-b-16 {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.auto-box .ant-form-item-label {
+  width: 100px;
+}
+.text-red {
+  color: #f5222d;
+}
+.ant-tooltip-inner {
+  background-color: #fff;
+  color: #000;
+}
+.noclick .ant-select-selection__choice__remove {
+  display: none;
+}
+// 高度100%，背景白色，适用组件最外层
+.height100 {
+  height: 100%;
+}
+.videos .ant-upload-list-item-actions a {
+  display: none;
+}
+//去除textarea聚焦边框
+.textarea .ant-input:focus {
+  box-shadow: none;
+}
+.ant-steps-item-process .ant-steps-item-title {
+  font-weight: bold !important;
+}
+input[type='number'],
+input[type='password'],
+input[type='text'],
+textarea {
+  -webkit-appearance: none;
+}
+.textarea-wrap {
+  position: relative;
+  .statistics {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+.setting-box {
+  .ant-upload.ant-upload-select-picture-card {
+    width: 75px;
+    height: 75px;
+    margin-top: 7px;
+  }
+  .ant-upload-list-picture-card-container,
+  .ant-upload-list-picture-card .ant-upload-list-item {
+    width: 75px;
+    height: 75px;
+    margin-top: 3px;
+  }
+  .ant-upload-list-picture-card .ant-upload-list-item:hover .ant-upload-list-item-info::before {
+    opacity: 1;
+    left: 0;
+  }
+}
+.ant-popover-inner-content {
+  img {
+    width: 295px;
+    display: block;
+  }
+  .end {
+    width: 356px;
+  }
+  .will-rank {
+    width: 443px;
+  }
+}
+.ant-popover-inner-content img + img {
+  margin-top: 12px;
+}
+.ant-popover-inner-content .title {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+.bold-bold {
+  font-weight: 600;
+}
+.ant-popover-inner-content {
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .flex-row {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+.ant-popover-inner-content .staff-list {
+  max-height: 230px;
+  overflow-y: auto;
+  .staff-box {
+    margin-top: 16px;
+    margin-right: 16px;
+    padding: 0 8px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    .user {
+      color: #7da3d1;
+    }
+  }
+}
+.ant-popover-inner-content .group-list {
+  max-height: 256px;
+  overflow-y: auto;
+  .group-box {
+    padding: 12px;
+    background: #fff;
+    border-radius: 2px;
+    border: 1px solid #d1d1d1;
+    margin-right: 16px;
+    margin-top: 16px;
+    img {
+      margin-right: 12px;
+      width: 40px;
+      height: 40px;
+      background: #1890ff;
+      border-radius: 2px;
+    }
+    .name-count {
+      .name {
+        margin-bottom: 2px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 21px;
+        max-width: 84px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        word-break: break-all;
+      }
+      .count {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 18px;
+      }
+    }
+  }
+}
+.page-box {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+#leaderboardDetails {
+  .ant-popover-content {
+    max-width: 567px;
+  }
+}
+.winged-tag.integral-tag {
+  background: #fff6f1;
+  border: 1px solid #ffceba;
+  padding: 0 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #f5894c;
+  line-height: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 8px;
+  .full-h {
+    height: 100%;
+  }
+  .flex-row {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+  }
+  .winged-tag-icon {
+    margin-right: 2px;
+    width: 20px;
+    font-size: 20px;
+  }
+  &.score-tag {
+    background: #f2f9ff;
+    border: 1px solid #b3daff;
+    padding: 0 4px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1890ff;
+    line-height: 22px;
+  }
+}
+.setting-center-contianer {
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+}
+.error-tips {
+  width: 100%;
+  padding: 10px 17px;
+  background: #feeaea;
+  border-radius: 2px;
+  color: rgba(212, 59, 59, 0.98);
+}
+
+.cancle .ant-btn-primary {
+  display: none;
+}
+
+.ant-select-dropdown-menu-item {
+  white-space: pre-wrap !important;
+}
+
+.token-tooltip .ant-tooltip-inner {
+  padding: 0;
+}
+.CreatorLibrary {
+  padding: 20px 10px;
+  background: #fff;
+  margin: 20px;
+}
+.ac-container {
+  position: relative;
+  border-radius: 3.5px;
+  background-color: #fff;
+  padding: 24px;
+  margin: 20px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.02);
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+    &.full {
+      justify-content: space-between;
+    }
+    &.wrap {
+      flex-flow: row wrap;
+      .flex {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+
+    span,
+    label {
+      &:first-child {
+        // 强制不换行
+        white-space: nowrap;
+      }
+    }
+    label {
+      position: relative;
+      &::after {
+        content: ':';
+        position: absolute;
+        right: -8px;
+        top: 0;
+      }
+      margin-right: 12px;
+      color: #666;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    .item {
+      width: 200px;
+      margin-left: 12px;
+    }
+    button {
+      margin-right: 8px;
+    }
+    &.btn-flex {
+      button {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+.ml-15 {
+  margin-left: 15px;
+}
+
+.CreatorLibrary {
+  background: #fff;
+  padding: 10px;
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.flex-row.align-right {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.filter-header {
+  position: relative;
+  padding: 16px 84px 0 24px;
+  background: #fff;
+  .reset-btn {
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+  }
+  .filter-item {
+    margin-right: 32px;
+    margin-bottom: 16px;
+    label {
+      color: rgba(0, 0, 0, 0.65);
+      white-space: nowrap;
+    }
+  }
+}
+.align-items {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+  border-color: #1890ff;
+  background: #1890ff;
+  color: #fff;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  border-color: #1890ff;
+  background: #1890ff;
+  color: #fff !important;
+}
+.red-sp {
+  color: red;
+}
+.m-l15 {
+  margin-left: 15px;
+}
+.m-t10 {
+  margin-top: 10px;
+}
+.m-t20 {
+  margin-top: 20px;
+}
+.blue {
+  color: #1890ff;
+}
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+  font-size: 24px;
+}
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon {
+  margin-bottom: 0px;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.ant-upload-text {
+  font-size: 12px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+// quill 样式定制
+.ql-toolbar.ql-snow {
+  height: 0px;
+  padding: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.ql-snow .ql-editor img {
+  width: 200px;
+}

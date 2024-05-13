@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>位图备份@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48" rx="2"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="素材库-PPT" transform="translate(-490.000000, -288.000000)">
+            <g id="编组-3" transform="translate(294.000000, 267.000000)">
+                <g id="位图备份@2x" transform="translate(196.000000, 21.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#EA5C2F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <path d="M24.5083969,14 C29.9540866,14 33,16.4131704 33,20.9398034 C33,25.3365732 30.1586115,27.7547908 25.0323896,27.9219125 L24.4534351,27.9312039 L20.9633588,27.9312039 L20.9633588,35 L15,35 L15,14 L24.5083969,14 Z M24.2610687,19.1597052 L20.9633588,19.1597052 L20.9633588,22.7714988 L24.2610687,22.7714988 C25.3912569,22.7714988 26.1692571,22.5889061 26.5410189,22.327705 C26.8343624,22.109692 27.0091603,21.6857753 27.0091603,20.9398034 C27.0091603,20.2267715 26.8345409,19.830063 26.5135379,19.6034989 C26.1939092,19.3659506 25.5804494,19.2043322 24.6696339,19.1676393 L24.2610687,19.1597052 Z" id="P" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

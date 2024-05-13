@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>位图备份@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48" rx="2"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="素材库-文档" transform="translate(-490.000000, -282.000000)">
+            <g id="编组-3" transform="translate(294.000000, 261.000000)">
+                <g id="位图备份@2x" transform="translate(196.000000, 21.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="蒙版" fill="#54A0FF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <polygon id="路径" fill="#FFFFFF" mask="url(#mask-2)" points="10 16 14.9188142 16 18.098703 27.1971283 18.7947617 27.1971283 22.355651 16 26.5625316 16 30.1063247 27.2126832 30.8683258 27.2126832 34.0653108 16 39 16 34.0653108 32 27.076638 32 24.6917214 23.5943763 24.028634 23.5943763 21.6766886 31.9676937 14.869968 31.9676937 10 16"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
